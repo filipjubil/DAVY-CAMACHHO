@@ -1,4 +1,5 @@
-﻿namespace quizdavi;
+﻿using Microsoft.Maui.Controls;
+namespace quizdavi;
 
 public partial class MainPage : ContentPage
 {
@@ -9,16 +10,9 @@ public partial class MainPage : ContentPage
 		InitializeComponent();
 	}
 
-	private void OnCounterClicked(object sender, EventArgs e)
+	private void About(object sender, EventArgs  args)
 	{
-		count++;
-
-		if (count == 1)
-			CounterBtn.Text = $"Clicked {count} time";
-		else
-			CounterBtn.Text = $"Clicked {count} times";
-
-		SemanticScreenReader.Announce(CounterBtn.Text);
+		Application.Current.MainPage = new SobrePage();
 	}
 }
 

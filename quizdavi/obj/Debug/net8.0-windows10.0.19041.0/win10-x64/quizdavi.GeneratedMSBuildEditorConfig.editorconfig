@@ -8,36 +8,48 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = quizdavi
-build_property.ProjectDir = C:\Users\Aluno\DAVY-CAMACHHO-1\quizdavi\
+build_property.ProjectDir = C:\Users\Aluno\DAVY-CAMACHHO\quizdavi\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/Aluno/DAVY-CAMACHHO-1/quizdavi/App.xaml]
+[C:/Users/Aluno/DAVY-CAMACHHO/quizdavi/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = quizdavi.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Aluno/DAVY-CAMACHHO-1/quizdavi/AppShell.xaml]
+[C:/Users/Aluno/DAVY-CAMACHHO/quizdavi/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = quizdavi.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Aluno/DAVY-CAMACHHO-1/quizdavi/MainPage.xaml]
+[C:/Users/Aluno/DAVY-CAMACHHO/quizdavi/coxinhaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = quizdavi.coxinhaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = coxinhaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = coxinhaPage.xaml
+
+[C:/Users/Aluno/DAVY-CAMACHHO/quizdavi/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = quizdavi.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/Aluno/DAVY-CAMACHHO-1/quizdavi/Resources/Styles/Colors.xaml]
+[C:/Users/Aluno/DAVY-CAMACHHO/quizdavi/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = quizdavi.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Aluno/DAVY-CAMACHHO-1/quizdavi/Resources/Styles/Styles.xaml]
+[C:/Users/Aluno/DAVY-CAMACHHO/quizdavi/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = quizdavi.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Aluno/DAVY-CAMACHHO/quizdavi/SobrePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = quizdavi.SobrePage.xaml
+build_metadata.AdditionalFiles.TargetPath = SobrePage.xaml
+build_metadata.AdditionalFiles.RelativePath = SobrePage.xaml

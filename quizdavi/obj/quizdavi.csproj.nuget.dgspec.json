@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aluno\\DAVY-CAMACHHO-1\\quizdavi\\quizdavi.csproj": {}
+    "C:\\Users\\Aluno\\DAVY-CAMACHHO\\quizdavi\\quizdavi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aluno\\DAVY-CAMACHHO-1\\quizdavi\\quizdavi.csproj": {
+    "C:\\Users\\Aluno\\DAVY-CAMACHHO\\quizdavi\\quizdavi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aluno\\DAVY-CAMACHHO-1\\quizdavi\\quizdavi.csproj",
+        "projectUniqueName": "C:\\Users\\Aluno\\DAVY-CAMACHHO\\quizdavi\\quizdavi.csproj",
         "projectName": "quizdavi",
-        "projectPath": "C:\\Users\\Aluno\\DAVY-CAMACHHO-1\\quizdavi\\quizdavi.csproj",
+        "projectPath": "C:\\Users\\Aluno\\DAVY-CAMACHHO\\quizdavi\\quizdavi.csproj",
         "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aluno\\DAVY-CAMACHHO-1\\quizdavi\\obj\\",
+        "outputPath": "C:\\Users\\Aluno\\DAVY-CAMACHHO\\quizdavi\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
