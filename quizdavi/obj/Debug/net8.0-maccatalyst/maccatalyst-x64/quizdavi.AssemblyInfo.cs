@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("quizdavi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+7d560bf8a94dcb3e7ca67e9fd7fff638140f2645")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+03726be72e8b48718db917f3d715b946aaef11b6")]
 [assembly: System.Reflection.AssemblyProductAttribute("quizdavi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("quizdavi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
