@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Davizinhoamandinha.MainPage">
+             x:Class="Davizinhoamandinha.MainPage"
+             Shell.NavBarIsVisible="false">
 
   <Grid>
-    <Grid.RowDefinitions>
-       <RowDefinition Height="*"/>
-       <RowDefinition Height="*"/>
-    </Grid.RowDefinitions>
-
+      <Image x:Name="ImgDoFundo"
+            Margin="20,0"
+            Source="fundo..jpg"
+            Aspect="Fill"/>
+    
   
-   <Image
-          Source="coala.png"
-          Aspect="AspectFill"
-          Grid.RowSpan="2"/> 
- 
+   <Image x:Name="ImgDoPersonagem"
+          Margin="20,0"
+          Source="girafinha.png"
+          VerticalOptions="End"/>
 
   </Grid>
 

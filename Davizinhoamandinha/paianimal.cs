@@ -9,7 +9,7 @@ public class paianimal
 
  public paianimal()
  {
-    fome=0;
+    fome=0.5;
     sede=0;
     passear=0;
  }
