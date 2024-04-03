@@ -5,17 +5,46 @@
              Shell.NavBarIsVisible="false">
 
   <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="60"/>
+      <RowDefinition Height="60"/>
+      <RowDefinition Height="60"/>
+      <RowDefinition Height="*"/>
+    </Grid.RowDefinitions>
       <Image x:Name="ImgDoFundo"
             Margin="20,0"
+            Grid.Row="0"
+            Grid.RowSpan="4"
             Source="fundo..jpg"
             Aspect="Fill"/>
     
-  
    <Image x:Name="ImgDoPersonagem"
           Margin="20,0"
+          Grid.Row="3"
           Source="girafinha.png"
           VerticalOptions="End"/>
 
+    <ProgressBar
+             x:Name="fome"/>
+    <ProgressBar
+             x:Name="sede"/>
+    <ProgressBar
+             x:Name="passear"/>
+
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="10"/>
+      <RowDefinition Height="10"/>
+      <RowDefinition Height="10"/>
+      <RowDefinition Height="*"/>
+    </Grid.RowDefinitions>
+    
+   <Image x:Name="imgfome"
+          Grid.Row="0"
+          Grid.RowSpan="4"
+          Margin="5,0"
+          Source="fomegirafa.png"/>
+  </Grid>
   </Grid>
 
 

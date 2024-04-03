@@ -1,12 +1,13 @@
 namespace Davizinhoamandinha;
 public class girafa : paianimal 
 {
-  Public Girafa()
+  public girafa ()
+  {
+    
+  }
 }
-{
-  Arquivo="girafa.png";
-  Fome=0.5;
-}
+
+
 
 
 

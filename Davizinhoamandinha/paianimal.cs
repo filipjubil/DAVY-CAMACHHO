@@ -2,9 +2,9 @@ namespace Davizinhoamandinha;
 
 public class paianimal
 {
- private int fome;
- protected int sede;
- public int passear;
+ private double fome;
+ protected double sede;
+ public double passear;
 
 
  public paianimal()
@@ -15,7 +15,7 @@ public class paianimal
  }
 
 
- public void SetFome(int f)
+ public void SetFome(double f)
 {
     if (f <= 1 || f >=0)
         fome = f ;
@@ -25,7 +25,7 @@ public class paianimal
         fome = 0;
 }
 
-public int GetFome()
+public double GetFome()
 {
     return fome;
 
