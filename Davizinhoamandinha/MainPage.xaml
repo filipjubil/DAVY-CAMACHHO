@@ -11,6 +11,10 @@
       <RowDefinition Height="60"/>
       <RowDefinition Height="*"/>
     </Grid.RowDefinitions>
+     <Grid.ColumnDefinitions>
+       <ColumnDefinition Width="*"/>
+  </Grid.ColumnDefinitions>
+
       <Image x:Name="ImgDoFundo"
             Margin="20,0"
             Grid.Row="0"
@@ -24,12 +28,10 @@
           Source="girafinha.png"
           VerticalOptions="End"/>
 
-    <ProgressBar
-             x:Name="fome"/>
-    <ProgressBar
-             x:Name="sede"/>
-    <ProgressBar
-             x:Name="passear"/>
+    <Frame x:Name="alimentos"
+           Grid.Row="1"
+           BackgroundColor=
+
 
   <Grid>
     <Grid.RowDefinitions>
@@ -44,8 +46,11 @@
           Grid.RowSpan="4"
           Margin="5,0"
           Source="fomegirafa.png"/>
+    </Grid>
+    </Frame>
+    
   </Grid>
-  </Grid>
+
 
 
 
