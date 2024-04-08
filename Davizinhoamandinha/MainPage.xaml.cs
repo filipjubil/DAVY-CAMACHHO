@@ -2,13 +2,28 @@
 
 public partial class MainPage : ContentPage
 {
-	int count = 0;
 
 	public MainPage()
 	{
 		InitializeComponent();
-	}
 
-	
+	}
+    private void ClicouBotaoComida(object sender,EventArgs args)
+    {
+
+
+    }
+    private  void ClicouBotaoAgua (object sender,EventArgs args)	
+    {
+
+
+    }
+    private void ClicouSetaDireita(object sender, EventArgs args)
+    {
+
+
+    }
+
+
 }
 
