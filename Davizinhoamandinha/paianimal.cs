@@ -4,14 +4,14 @@ public class paianimal
 {
  private double fome;
  protected double sede;
- public double passear;
+ public double carinho;
 
 
  public paianimal()
  {
     fome=0.5;
     sede=0;
-    passear=0;
+    carinho=0;
  }
 
 

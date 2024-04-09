@@ -12,7 +12,9 @@
       <RowDefinition Height="*"/>
     </Grid.RowDefinitions>
      <Grid.ColumnDefinitions>
+       <ColumnDefinition Width="60"/>
        <ColumnDefinition Width="*"/>
+       <ColumnDefinition Width="80"/>
   </Grid.ColumnDefinitions>
 
       <Image x:Name="ImgDoFundo"
@@ -28,24 +30,61 @@
           Source="girafinha.png"
           VerticalOptions="End"/>
 
-    <Frame x:Name="alimentos"
-           Grid.Row="1"
-           BackgroundColor=
-
+  <Frame Grid.Column="0"
+         Grid.Row="0"
+         Grid.ColumnSpan="3"
+         Grid.RowSpan="3"
+         CornerRadius="20"
+         BackgroundColor="#d4a4a1"
+         Margin="10">
 
   <Grid>
     <Grid.RowDefinitions>
-      <RowDefinition Height="10"/>
-      <RowDefinition Height="10"/>
-      <RowDefinition Height="10"/>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="*"/>
       <RowDefinition Height="*"/>
     </Grid.RowDefinitions>
-    
-   <Image x:Name="imgfome"
-          Grid.Row="0"
-          Grid.RowSpan="4"
-          Margin="5,0"
-          Source="fomegirafa.png"/>
+    <Grid.ColumnDefinitions>
+       <ColumnDefinition Width="60"/>
+       <ColumnDefinition Width="*"/>
+  </Grid.ColumnDefinitions>
+
+  <Image Source="comida.png"
+         Grid.Column="1"
+         Grid.Row="0"
+         HeightRequest="60"
+         VerticalOptions="Center"/>
+
+  <Image Source="sede.png"
+         Grid.Column="2"
+         Grid.Row="0"
+         HeightRequest="60"
+         VerticalOptions="Center"/>
+
+  <Image Source="carinho.png"
+         Grid.Row="1"
+         HeightRequest="60"
+         VerticalOptions="Center"/>
+        
+  <ProgressBar x:Name="ProgresBarComida"
+               Grid.Row="0"
+               Grid.Column="1"
+               Grid.ColumnSpan="50"/>
+
+   <ProgressBar x:Name="ProgresBarAgua"
+               Grid.Row="1"
+               Grid.Column="1"
+               Grid.ColumnSpan="50"/>
+
+ <ProgressBar x:Name="ProgresBarCarinho"
+               Grid.Row="2"
+               Grid.Column="1"
+               Grid.ColumnSpan="50"/>
+
+
+
+
+
     </Grid>
     </Frame>
     
