@@ -9,13 +9,13 @@ public class paianimal
 
  public paianimal()
  {
-    fome=0.5;
-    sede=0;
-    carinho=0;
+    Comida=0.5;
+    Agua=0;
+    Carinho=0;
  }
 
 
- public void SetFome(double f)
+ public void SetComida(double f)
 {
     if (f <= 1 || f >=0)
         fome = f ;
@@ -25,9 +25,9 @@ public class paianimal
         fome = 0;
 }
 
-public double GetFome()
+public double GetComida()
 {
-    return fome;
+    return Comida;
 
 
 }
