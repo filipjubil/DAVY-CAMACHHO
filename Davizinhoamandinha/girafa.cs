@@ -1,25 +1,21 @@
 namespace Davizinhoamandinha;
-public class girafa : paianimal 
+public class Girafa : paianimal 
 {
   
     public double Comida;
  protected double Agua;
  public double Carinho;
-  }
 
- public girafa()
+ String Arquivo="girafinha.png";
+
+ public Girafa()
  {
     Comida=0.1;
-    Agua=0;
-    carinho=0;
+    Agua=0.1;
+    Carinho=0.1;
+    
  }
- public double GetComida()
-{
-    return Comida;
 }
-
-
- 
 
 
 

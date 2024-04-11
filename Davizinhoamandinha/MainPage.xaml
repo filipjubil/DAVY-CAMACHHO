@@ -10,14 +10,20 @@
       <RowDefinition Height="60"/>
       <RowDefinition Height="60"/>
       <RowDefinition Height="*"/>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="*"/>
     </Grid.RowDefinitions>
      <Grid.ColumnDefinitions>
        <ColumnDefinition Width="60"/>
        <ColumnDefinition Width="*"/>
        <ColumnDefinition Width="80"/>
+       <RowDefinition Height="*"/>
   </Grid.ColumnDefinitions>
 
-      <Image x:Name="ImgDoFundo"
+      <Image 
             Margin="20,0"
             Grid.Row="0"
             Grid.RowSpan="4"
@@ -36,18 +42,9 @@
          Grid.RowSpan="3"
          CornerRadius="20"
          BackgroundColor="#d4a4a1"
-         Margin="10">
-
-  <Grid>
-    <Grid.RowDefinitions>
-      <RowDefinition Height="*"/>
-      <RowDefinition Height="*"/>
-      <RowDefinition Height="*"/>
-    </Grid.RowDefinitions>
-    <Grid.ColumnDefinitions>
-       <ColumnDefinition Width="60"/>
-       <ColumnDefinition Width="*"/>
-  </Grid.ColumnDefinitions>
+         Margin="10"
+         HorizontalOptions="End"
+         WidthRequest="80">
 
   <Image Source="comida.png"
          Grid.Column="1"
@@ -66,22 +63,13 @@
          HeightRequest="60"
          VerticalOptions="Center"/>
     
-  <Frame Grid.Row="1"
+  <Frame 
          BackgroundColor="#d4a4a1"
-         Margin="20"/>
+         Margin="20"
+         HorizontalOptions="End"
+         WidthRequest="80">
 
-  <Grid>
-    <Grid.RowDefinitions>
-      <RowDefinition Height="*"/>
-      <RowDefinition Height="*"/>
-      <RowDefinition Height="*"/>
-    </Grid.RowDefinitions>
-    <Grid.ColumnDefinitions>
-       <ColumnDefinition Width="60"/>
-       <ColumnDefinition Width="*"/>
-  </Grid.ColumnDefinitions>
-
-   <ProgressBar x:Name="ProgresBarComida"
+   <ProgressBar x:Name="ProgressComida"
                Grid.Row="0"
                Grid.Column="1"
                Grid.ColumnSpan="50"/>
@@ -92,7 +80,7 @@
 
               
 
-  <ProgressBar x:Name="ProgresBarAgua"
+  <ProgressBar x:Name="ProgressAgua"
                Grid.Row="1"
                Grid.Column="1"
                Grid.ColumnSpan="50"/>
@@ -102,7 +90,7 @@
          Grid.Row="0"/>
 
  
-  <ProgressBar x:Name="ProgresBarCarinho"
+  <ProgressBar x:Name="ProgressCarinho"
                Grid.Row="2"
                Grid.Column="1"
                Grid.ColumnSpan="50"/>
@@ -112,11 +100,9 @@
          Grid.Row="0"/>
 
 
-
-
-
-    </Grid>
     </Frame>
+    </Frame>
+    
     
   </Grid>
 
